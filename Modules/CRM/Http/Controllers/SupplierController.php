@@ -161,3 +161,4 @@ class SupplierController extends Controller
         return view('crm::suppliers.statement', compact('supplier'));
     }
 }
+

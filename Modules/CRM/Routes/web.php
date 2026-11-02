@@ -55,3 +55,4 @@ Route::prefix('adjustments')->name('adjustments.')->group(function () {
     Route::get('/', [BalanceAdjustmentController::class, 'index'])->name('index');
     Route::post('/', [BalanceAdjustmentController::class, 'store'])->name('store');
 });
+

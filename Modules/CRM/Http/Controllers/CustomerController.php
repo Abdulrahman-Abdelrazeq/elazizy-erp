@@ -199,3 +199,4 @@ class CustomerController extends Controller
         return view('crm::customers.statement', compact('customer'));
     }
 }
+

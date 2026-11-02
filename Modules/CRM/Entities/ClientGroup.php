@@ -34,3 +34,4 @@ class ClientGroup extends Model
         return $this->hasMany(Client::class, 'group_id');
     }
 }
+

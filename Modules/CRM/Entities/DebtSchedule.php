@@ -47,3 +47,4 @@ class DebtSchedule extends Model
         return max(0.00, (float) ($this->amount - $this->paid_amount));
     }
 }
+

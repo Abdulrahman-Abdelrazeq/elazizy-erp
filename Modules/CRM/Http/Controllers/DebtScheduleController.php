@@ -83,3 +83,4 @@ class DebtScheduleController extends Controller
         return back()->with('success', 'تم تسجيل سداد القسط وتحديث رصيد العميل بنجاح!');
     }
 }
+

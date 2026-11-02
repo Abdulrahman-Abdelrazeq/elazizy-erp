@@ -73,3 +73,4 @@ class ClientGroupController extends Controller
         return back()->with('success', 'تم حذف الشريحة بنجاح.');
     }
 }
+
