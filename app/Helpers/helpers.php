@@ -81,3 +81,16 @@ if (!function_exists('formatMoney')) {
     }
 }
 
+if (!function_exists('getSetting')) {
+    /**
+     * Get company/system setting value
+     */
+    function getSetting(string $key, mixed $default = null): mixed
+    {
+        if (class_exists(\Modules\Setting\Entities\CompanySetting::class)) {
+            return \Modules\Setting\Entities\CompanySetting::get($key, $default);
+        }
+        return $default;
+    }
+}
+

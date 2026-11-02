@@ -593,19 +593,44 @@
                 </a>
             </li>
 
-            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
+            <li class="menu-category">موديول 3: إدارة العملاء والموردين (CRM)</li>
             <li class="menu-item">
-                <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
+                <a href="{{ route('crm.customers.index') }}" class="menu-link {{ request()->routeIs('crm.customers.*') ? 'active' : '' }}">
                     <i class="fa-solid fa-users"></i>
-                    <span>العملاء والموردين (موديول 3)</span>
-                    <span class="menu-badge">قيد الجدولة</span>
+                    <span>سجل ودليل العملاء</span>
                 </a>
             </li>
+            <li class="menu-item">
+                <a href="{{ route('crm.suppliers.index') }}" class="menu-link {{ request()->routeIs('crm.suppliers.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-truck-field"></i>
+                    <span>سجل ودليل الموردين</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('crm.groups.index') }}" class="menu-link {{ request()->routeIs('crm.groups.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>شرائح وتصنيفات العملاء</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('crm.debts.index') }}" class="menu-link {{ request()->routeIs('crm.debts.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span>جدولة الديون والأقساط</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('crm.adjustments.index') }}" class="menu-link {{ request()->routeIs('crm.adjustments.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <span>تسويات وشطب الديون</span>
+                </a>
+            </li>
+
+            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
                     <i class="fa-solid fa-file-invoice-dollar"></i>
                     <span>المبيعات والمشتريات (موديول 4)</span>
-                    <span class="menu-badge">قيد الجدولة</span>
+                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
