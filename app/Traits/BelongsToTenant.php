@@ -14,8 +14,15 @@ trait BelongsToTenant
     protected static function bootBelongsToTenant(): void
     {
         static::creating(function ($model) {
-            if (!$model->tenant_id && auth()->check() && auth()->user()->tenant_id) {
-                $model->tenant_id = auth()->user()->tenant_id;
+            if (!$model->tenant_id) {
+                if (auth()->check() && auth()->user()->tenant_id) {
+                    $model->tenant_id = auth()->user()->tenant_id;
+                } elseif (session()->has('tenant_id')) {
+                    $model->tenant_id = session('tenant_id');
+                } else {
+                    $defaultTenant = Tenant::first();
+                    $model->tenant_id = $defaultTenant ? $defaultTenant->id : 1;
+                }
             }
         });
 

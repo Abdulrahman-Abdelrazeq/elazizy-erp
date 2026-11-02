@@ -657,19 +657,32 @@
                 </a>
             </li>
 
-            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
+            <li class="menu-category">موديول 5: نقاط البيع والكاشير (POS)</li>
             <li class="menu-item">
-                <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-cash-register"></i>
-                    <span>نقاط البيع والكاشير (موديول 5)</span>
-                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
+                <a href="{{ route('pos.screen') }}" class="menu-link {{ request()->routeIs('pos.screen') ? 'active' : '' }}">
+                    <i class="fa-solid fa-desktop"></i>
+                    <span>شاشة الكاشير السريعة</span>
                 </a>
             </li>
+            <li class="menu-item">
+                <a href="{{ route('pos.shifts.index') }}" class="menu-link {{ request()->routeIs('pos.shifts.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-cash-register"></i>
+                    <span>ورديات وجرد الكاشير</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('pos.terminals.index') }}" class="menu-link {{ request()->routeIs('pos.terminals.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-server"></i>
+                    <span>أجهزة ونقاط البيع</span>
+                </a>
+            </li>
+
+            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
                     <i class="fa-solid fa-vault"></i>
                     <span>الخزائن والمصروفات (موديول 6)</span>
-                    <span class="menu-badge">قيد الجدولة</span>
+                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">

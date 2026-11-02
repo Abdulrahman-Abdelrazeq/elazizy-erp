@@ -193,7 +193,12 @@ class Invoice extends Model
      */
     public static function generateNumber(string $type, ?int $tenantId = null): string
     {
-        $tenantId = $tenantId ?: (auth()->check() ? auth()->user()->tenant_id : session('tenant_id', 1));
+        if (!$tenantId) {
+            $tenantId = (auth()->check() && auth()->user()->tenant_id)
+                ? auth()->user()->tenant_id
+                : (session('tenant_id') ?: (\App\Models\Tenant::first()?->id ?? 1));
+        }
+
         $prefix = match($type) {
             'sale'            => 'INV-SAL-',
             'purchase'        => 'INV-PUR-',
@@ -211,7 +216,18 @@ class Invoice extends Model
             ->first();
 
         $nextSeq = $last ? ($last->id + 1) : 1001;
-        return $prefix . str_pad($nextSeq, 5, '0', STR_PAD_LEFT);
+        $candidate = $prefix . str_pad($nextSeq, 5, '0', STR_PAD_LEFT);
+
+        while (static::withoutGlobalScope('tenant')
+            ->where('tenant_id', $tenantId)
+            ->where('type', $type)
+            ->where('invoice_number', $candidate)
+            ->exists()) {
+            $nextSeq++;
+            $candidate = $prefix . str_pad($nextSeq, 5, '0', STR_PAD_LEFT);
+        }
+
+        return $candidate;
     }
 }
 

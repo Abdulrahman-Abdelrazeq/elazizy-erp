@@ -216,25 +216,36 @@
                 </p>
             </div>
 
-            <!-- Module 5: Next -->
-            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+            <!-- Module 5: Done -->
+            <div style="border: 1.5px solid var(--primary); border-radius: 14px; padding: 18px; background: var(--primary-light);">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 5: نقاط البيع والكاشير (POS)</strong>
-                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                    <strong style="font-size: 15px; color: var(--primary);"><i class="fa-solid fa-circle-check"></i> موديول 5: نقاط البيع والكاشير (POS)</strong>
+                    <span style="background: var(--primary); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مكتمل وجاهز</span>
                 </div>
-                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
-                    شاشة الكاشير السريعة اللمسية، مسدس الباركود، تسليم واستلام الشيفتات والعهد النقدية، وطباعة الإيصالات الحرارية الفورية.
+                <p style="font-size: 13px; color: var(--text-main); margin-bottom: 0;">
+                    شاشة الكاشير السريعة اللمسية، مسدس الباركود، إدارة وتدوير الورديات، تعليق واسترجاع الفواتير، جرد الدرج ومطابقة العجز والزيادة (تقرير Z)، وطباعة الإيصالات الحرارية (80mm).
                 </p>
             </div>
 
-            <!-- Module 5 -->
+            <!-- Module 6: Next -->
+            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 6: الخزائن والمصروفات (Treasury & Expenses)</strong>
+                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                </div>
+                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
+                    الخزائن النقدية، الحسابات البنكية، أذونات القبض والصرف، بنود المصروفات العامة، والتحويل بين الخزائن مع دورة الموافقات.
+                </p>
+            </div>
+
+            <!-- Module 7: Scheduled -->
             <div style="border: 1px solid var(--border-color); border-radius: 14px; padding: 18px; background: #F8FAFC;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-cash-register"></i> موديول 5: نقاط البيع (POS)</strong>
+                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-book"></i> موديول 7: شجرة الحسابات والقيود (Accounting)</strong>
                     <span style="background: #E2E8F0; color: #475569; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مجدول</span>
                 </div>
                 <p style="font-size: 13px; color: #64748B; margin-bottom: 0;">
-                    شاشة الكاشير السريعة اللمسية، إدارة الشيفتات، تسليم واستلام العهد، وطباعة الإيصالات.
+                    دليل الحسابات الشجري (COA)، القيود اليومية المزدوجة، مراكز التكلفة، وميزان المراجعة.
                 </p>
             </div>
         </div>
