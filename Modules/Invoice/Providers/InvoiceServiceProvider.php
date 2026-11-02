@@ -37,3 +37,4 @@ class InvoiceServiceProvider extends ServiceProvider
             ->group(__DIR__ . '/../Routes/web.php');
     }
 }
+

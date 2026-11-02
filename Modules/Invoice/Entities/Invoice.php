@@ -214,3 +214,4 @@ class Invoice extends Model
         return $prefix . str_pad($nextSeq, 5, '0', STR_PAD_LEFT);
     }
 }
+

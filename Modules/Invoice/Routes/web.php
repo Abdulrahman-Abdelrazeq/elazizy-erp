@@ -53,3 +53,4 @@ Route::prefix('orders')->name('orders.')->group(function () {
     Route::post('/', [PurchaseOrderController::class, 'store'])->name('store');
     Route::post('/{order}/convert', [PurchaseOrderController::class, 'convertToPurchase'])->name('convert');
 });
+

@@ -242,3 +242,4 @@ function openConvertModal(id, number, client, total) {
 }
 </script>
 @endsection
+

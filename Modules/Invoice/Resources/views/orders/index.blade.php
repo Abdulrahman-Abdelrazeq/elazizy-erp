@@ -221,3 +221,4 @@ function openReceiveOrderModal(id, number, supplier, total) {
 }
 </script>
 @endsection
+
