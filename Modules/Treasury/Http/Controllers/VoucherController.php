@@ -271,3 +271,4 @@ class VoucherController extends Controller
         }
     }
 }
+

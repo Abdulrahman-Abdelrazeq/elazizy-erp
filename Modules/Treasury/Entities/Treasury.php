@@ -144,3 +144,4 @@ class Treasury extends Model
         return $newBalance;
     }
 }
+

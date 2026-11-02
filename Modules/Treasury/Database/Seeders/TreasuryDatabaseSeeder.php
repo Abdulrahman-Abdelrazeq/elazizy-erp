@@ -220,3 +220,4 @@ class TreasuryDatabaseSeeder extends Seeder
         $bank1->recalculateBalance();
     }
 }
+

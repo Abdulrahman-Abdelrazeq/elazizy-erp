@@ -77,3 +77,4 @@ class TreasuryTransfer extends Model
         return $candidate;
     }
 }
+

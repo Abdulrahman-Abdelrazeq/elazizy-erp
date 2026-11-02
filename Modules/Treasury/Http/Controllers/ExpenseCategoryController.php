@@ -99,3 +99,4 @@ class ExpenseCategoryController extends Controller
         return back()->with('success', 'تم حذف البند بنجاح.');
     }
 }
+

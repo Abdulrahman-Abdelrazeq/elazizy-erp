@@ -56,3 +56,4 @@ class ExpenseCategory extends Model
         return $this->type === 'revenue' ? 'إيرادات متنوعة' : 'مصروفات عمومية';
     }
 }
+

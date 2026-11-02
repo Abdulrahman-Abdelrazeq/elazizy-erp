@@ -132,3 +132,4 @@ class TreasuryVoucher extends Model
         return $candidate;
     }
 }
+

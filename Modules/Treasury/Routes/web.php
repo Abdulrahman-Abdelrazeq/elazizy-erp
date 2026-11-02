@@ -51,3 +51,4 @@ Route::prefix('transfers')->name('transfers.')->group(function () {
 Route::prefix('reports')->name('reports.')->group(function () {
     Route::get('/cash-flow', [ReportController::class, 'cashFlow'])->name('cash_flow');
 });
+

@@ -60,3 +60,4 @@ class TreasuryTransaction extends Model
         };
     }
 }
+
