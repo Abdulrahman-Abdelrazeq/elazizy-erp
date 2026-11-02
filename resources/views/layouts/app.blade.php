@@ -625,19 +625,44 @@
                 </a>
             </li>
 
-            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
+            <li class="menu-category">موديول 4: المبيعات والمشتريات (Invoicing)</li>
             <li class="menu-item">
-                <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
+                <a href="{{ route('invoices.sales.index') }}" class="menu-link {{ request()->routeIs('invoices.sales.*') ? 'active' : '' }}">
                     <i class="fa-solid fa-file-invoice-dollar"></i>
-                    <span>المبيعات والمشتريات (موديول 4)</span>
-                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
+                    <span>فواتير المبيعات</span>
                 </a>
             </li>
+            <li class="menu-item">
+                <a href="{{ route('invoices.purchases.index') }}" class="menu-link {{ request()->routeIs('invoices.purchases.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>فواتير المشتريات</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('invoices.quotations.index') }}" class="menu-link {{ request()->routeIs('invoices.quotations.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-handshake"></i>
+                    <span>عروض الأسعار للعملاء</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('invoices.returns.index') }}" class="menu-link {{ request()->routeIs('invoices.returns.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <span>مرتجعات البيع والشراء</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('invoices.orders.index') }}" class="menu-link {{ request()->routeIs('invoices.orders.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-file-contract"></i>
+                    <span>أوامر الشراء (PO)</span>
+                </a>
+            </li>
+
+            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
                     <i class="fa-solid fa-cash-register"></i>
                     <span>نقاط البيع والكاشير (موديول 5)</span>
-                    <span class="menu-badge">قيد الجدولة</span>
+                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">

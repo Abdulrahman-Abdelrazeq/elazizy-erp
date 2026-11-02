@@ -119,5 +119,26 @@ class Item extends Model
 
         return ['status' => 'in_stock', 'label' => 'متوفر', 'class' => 'badge-success'];
     }
+
+    protected $appends = [
+        'selling_price',
+        'cost_price',
+        'code',
+    ];
+
+    public function getSellingPriceAttribute(): float
+    {
+        return (float) ($this->sell_price ?? 0);
+    }
+
+    public function getCostPriceAttribute(): float
+    {
+        return (float) ($this->buy_price ?? 0);
+    }
+
+    public function getCodeAttribute(): string
+    {
+        return (string) ($this->sku ?: ($this->barcode ?: 'ITM-' . $this->id));
+    }
 }
 

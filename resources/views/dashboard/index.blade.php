@@ -156,7 +156,7 @@
                 خطة بناء موديولات نظام العزيزي ERP (خطوة بخطوة)
             </h3>
             <span style="background: var(--primary-light); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700;">
-                تم إنجاز: النواة (Module 0) + الإعدادات (Module 1) + الأصناف والمستودعات (Module 2) + علاقات العملاء والموردين (Module 3)
+                تم إنجاز: النواة (0) + الإعدادات (1) + الأصناف والمستودعات (2) + العملاء والموردين (3) + المبيعات والمشتريات (4)
             </span>
         </div>
 
@@ -205,25 +205,25 @@
                 </p>
             </div>
 
-            <!-- Module 4: Next -->
-            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+            <!-- Module 4: Done -->
+            <div style="border: 1.5px solid var(--primary); border-radius: 14px; padding: 18px; background: var(--primary-light);">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 4: المبيعات والمشتريات</strong>
-                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                    <strong style="font-size: 15px; color: var(--primary);"><i class="fa-solid fa-circle-check"></i> موديول 4: المبيعات والمشتريات (Invoicing)</strong>
+                    <span style="background: var(--primary); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مكتمل وجاهز</span>
                 </div>
-                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
-                    فواتير المبيعات والمشتريات، عروض الأسعار، أوامر الشراء، المرتجعات، الخصومات المتعددة، وربطها بالمخازن والعملاء.
+                <p style="font-size: 13px; color: var(--text-main); margin-bottom: 0;">
+                    فواتير المبيعات والمشتريات، عروض الأسعار، أوامر الشراء، المرتجعات، الخصومات المتعددة، الربط المالي والمخزني التلقائي، والطباعة الضريبية.
                 </p>
             </div>
 
-            <!-- Module 5 -->
-            <div style="border: 1px solid var(--border-color); border-radius: 14px; padding: 18px; background: #F8FAFC;">
+            <!-- Module 5: Next -->
+            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-cash-register"></i> موديول 5: نقاط البيع (POS)</strong>
-                    <span style="background: #E2E8F0; color: #475569; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مجدول</span>
+                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 5: نقاط البيع والكاشير (POS)</strong>
+                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
                 </div>
-                <p style="font-size: 13px; color: #64748B; margin-bottom: 0;">
-                    شاشة الكاشير السريعة اللمسية، إدارة الشيفتات، تسليم واستلام العهد، وطباعة الإيصالات.
+                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
+                    شاشة الكاشير السريعة اللمسية، مسدس الباركود، تسليم واستلام الشيفتات والعهد النقدية، وطباعة الإيصالات الحرارية الفورية.
                 </p>
             </div>
 

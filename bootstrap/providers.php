@@ -3,6 +3,7 @@
 use App\Providers\AppServiceProvider;
 use Modules\CRM\Providers\CrmServiceProvider;
 use Modules\Inventory\Providers\InventoryServiceProvider;
+use Modules\Invoice\Providers\InvoiceServiceProvider;
 use Modules\Setting\Providers\SettingServiceProvider;
 
 return [
@@ -10,4 +11,5 @@ return [
     SettingServiceProvider::class,
     InventoryServiceProvider::class,
     CrmServiceProvider::class,
+    InvoiceServiceProvider::class,
 ];
