@@ -227,25 +227,36 @@
                 </p>
             </div>
 
-            <!-- Module 6: Next -->
-            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+            <!-- Module 6: Done -->
+            <div style="border: 1.5px solid var(--primary); border-radius: 14px; padding: 18px; background: var(--primary-light);">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 6: الخزائن والمصروفات (Treasury & Expenses)</strong>
-                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                    <strong style="font-size: 15px; color: var(--primary);"><i class="fa-solid fa-circle-check"></i> موديول 6: الخزائن والمصروفات (Treasury & Expenses)</strong>
+                    <span style="background: var(--primary); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مكتمل وجاهز</span>
                 </div>
-                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
-                    الخزائن النقدية، الحسابات البنكية، أذونات القبض والصرف، بنود المصروفات العامة، والتحويل بين الخزائن مع دورة الموافقات.
+                <p style="font-size: 13px; color: var(--text-main); margin-bottom: 0;">
+                    الخزائن النقدية، الحسابات البنكية، المحافظ الإلكترونية، سندات القبض والصرف، التحويلات الداخلية، شجرة بنود المصروفات، وكشوف حسابات السيولة اللحظية.
                 </p>
             </div>
 
-            <!-- Module 7: Scheduled -->
+            <!-- Module 7: Next -->
+            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 7: شجرة الحسابات والقيود (Accounting & GL)</strong>
+                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                </div>
+                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
+                    دليل الحسابات الشجري (COA) خماسي المستويات، القيود اليومية المزدوجة التلقائية واليدوية، مراكز التكلفة، وميزان المراجعة.
+                </p>
+            </div>
+
+            <!-- Module 8: Scheduled -->
             <div style="border: 1px solid var(--border-color); border-radius: 14px; padding: 18px; background: #F8FAFC;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-book"></i> موديول 7: شجرة الحسابات والقيود (Accounting)</strong>
+                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-chart-pie"></i> موديول 8: القوائم والتقارير المالية (Financial Reports)</strong>
                     <span style="background: #E2E8F0; color: #475569; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مجدول</span>
                 </div>
                 <p style="font-size: 13px; color: #64748B; margin-bottom: 0;">
-                    دليل الحسابات الشجري (COA)، القيود اليومية المزدوجة، مراكز التكلفة، وميزان المراجعة.
+                    قائمة الدخل (الأرباح والخسائر)، الميزانية العمومية، دفتر الأستاذ العام، وتقارير الضرائب المعتمدة.
                 </p>
             </div>
         </div>

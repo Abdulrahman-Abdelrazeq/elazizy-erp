@@ -35,3 +35,4 @@ Route::prefix('terminals')->name('terminals.')->group(function () {
     Route::put('/{terminal}', [TerminalController::class, 'update'])->name('update');
     Route::delete('/{terminal}', [TerminalController::class, 'destroy'])->name('destroy');
 });
+

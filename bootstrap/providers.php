@@ -6,6 +6,7 @@ use Modules\Inventory\Providers\InventoryServiceProvider;
 use Modules\Invoice\Providers\InvoiceServiceProvider;
 use Modules\POS\Providers\PosServiceProvider;
 use Modules\Setting\Providers\SettingServiceProvider;
+use Modules\Treasury\Providers\TreasuryServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -14,4 +15,5 @@ return [
     CrmServiceProvider::class,
     InvoiceServiceProvider::class,
     PosServiceProvider::class,
+    TreasuryServiceProvider::class,
 ];

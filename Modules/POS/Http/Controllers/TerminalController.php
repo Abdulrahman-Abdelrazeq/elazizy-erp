@@ -90,3 +90,4 @@ class TerminalController extends Controller
         return back()->with('success', 'تم حذف نقطة البيع بنجاح.');
     }
 }
+

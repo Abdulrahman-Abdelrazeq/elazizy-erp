@@ -17,7 +17,7 @@ class SettingController extends Controller
      */
     public function index()
     {
-        $tenant = Auth::user()->tenant;
+        $tenant = Auth::user()->tenant ?: (session('tenant_id') ? Tenant::find(session('tenant_id')) : Tenant::first());
         $taxes = Tax::all();
         $currencies = Currency::all();
 
@@ -51,7 +51,7 @@ class SettingController extends Controller
      */
     public function update(Request $request)
     {
-        $tenant = Auth::user()->tenant;
+        $tenant = Auth::user()->tenant ?: (session('tenant_id') ? Tenant::find(session('tenant_id')) : Tenant::first());
 
         $request->validate([
             'company_name'        => 'required|string|max:200',

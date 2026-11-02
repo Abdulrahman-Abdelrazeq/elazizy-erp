@@ -45,3 +45,4 @@ class PosHeldOrder extends Model
         return $this->belongsTo(Client::class, 'client_id');
     }
 }
+

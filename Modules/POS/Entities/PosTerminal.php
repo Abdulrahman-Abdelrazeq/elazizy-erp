@@ -55,3 +55,4 @@ class PosTerminal extends Model
         return $this->shifts()->where('status', 'open')->latest('id')->first();
     }
 }
+

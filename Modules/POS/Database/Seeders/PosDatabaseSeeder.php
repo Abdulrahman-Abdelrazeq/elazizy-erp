@@ -121,3 +121,4 @@ class PosDatabaseSeeder extends Seeder
         }
     }
 }
+

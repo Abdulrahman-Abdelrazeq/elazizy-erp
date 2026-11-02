@@ -677,19 +677,44 @@
                 </a>
             </li>
 
-            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
+            <li class="menu-category">موديول 6: الخزائن والبنوك والمصروفات</li>
             <li class="menu-item">
-                <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
+                <a href="{{ route('treasury.treasuries.index') }}" class="menu-link {{ request()->routeIs('treasury.treasuries.*') ? 'active' : '' }}">
                     <i class="fa-solid fa-vault"></i>
-                    <span>الخزائن والمصروفات (موديول 6)</span>
-                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
+                    <span>الخزائن والحسابات البنكية</span>
                 </a>
             </li>
+            <li class="menu-item">
+                <a href="{{ route('treasury.vouchers.index') }}" class="menu-link {{ request()->routeIs('treasury.vouchers.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <span>سندات القبض والصرف</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('treasury.transfers.index') }}" class="menu-link {{ request()->routeIs('treasury.transfers.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-right-left"></i>
+                    <span>التحويلات بين الخزائن</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('treasury.categories.index') }}" class="menu-link {{ request()->routeIs('treasury.categories.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-tags"></i>
+                    <span>بنود المصروفات والإيرادات</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('treasury.reports.cash_flow') }}" class="menu-link {{ request()->routeIs('treasury.reports.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>تقرير التدفق والسيولة</span>
+                </a>
+            </li>
+
+            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
                     <i class="fa-solid fa-book"></i>
                     <span>الحسابات العامة والقيود (موديول 7)</span>
-                    <span class="menu-badge">قيد الجدولة</span>
+                    <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">

@@ -129,3 +129,4 @@ class ShiftController extends Controller
         return view('pos::shifts.print_z', compact('shift'));
     }
 }
+
