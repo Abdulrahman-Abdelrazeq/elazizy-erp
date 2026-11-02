@@ -555,14 +555,45 @@
                 </a>
             </li>
 
-            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
+            <li class="menu-category">موديول 2: الأصناف والمستودعات</li>
             <li class="menu-item">
-                <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
+                <a href="{{ route('inventory.items.index') }}" class="menu-link {{ request()->routeIs('inventory.items.*') ? 'active' : '' }}">
                     <i class="fa-solid fa-boxes-stacked"></i>
-                    <span>الأصناف والمستودعات (موديول 2)</span>
-                    <span class="menu-badge">قيد الجدولة</span>
+                    <span>دليل الأصناف والمنتجات</span>
                 </a>
             </li>
+            <li class="menu-item">
+                <a href="{{ route('inventory.stores.index') }}" class="menu-link {{ request()->routeIs('inventory.stores.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-warehouse"></i>
+                    <span>المستودعات والمخازن</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('inventory.units.index') }}" class="menu-link {{ request()->routeIs('inventory.units.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <span>وحدات القياس</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('inventory.categories.index') }}" class="menu-link {{ request()->routeIs('inventory.categories.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-folder-tree"></i>
+                    <span>الأقسام والماركات</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('inventory.transfers.index') }}" class="menu-link {{ request()->routeIs('inventory.transfers.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-right-left"></i>
+                    <span>التحويلات المخزنية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('inventory.adjustments.index') }}" class="menu-link {{ request()->routeIs('inventory.adjustments.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>تسويات الجرد والهالك</span>
+                </a>
+            </li>
+
+            <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
                     <i class="fa-solid fa-users"></i>

@@ -156,7 +156,7 @@
                 خطة بناء موديولات نظام العزيزي ERP (خطوة بخطوة)
             </h3>
             <span style="background: var(--primary-light); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700;">
-                تم إنجاز: النواة (Module 0) + الإعدادات والمناطق (Module 1)
+                تم إنجاز: النواة (Module 0) + الإعدادات (Module 1) + الأصناف والمستودعات (Module 2)
             </span>
         </div>
 
@@ -183,14 +183,25 @@
                 </p>
             </div>
 
-            <!-- Module 2: Next -->
+            <!-- Module 2: Done -->
+            <div style="border: 1.5px solid var(--primary); border-radius: 14px; padding: 18px; background: var(--primary-light);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <strong style="font-size: 15px; color: var(--primary);"><i class="fa-solid fa-circle-check"></i> موديول 2: الأصناف والمستودعات</strong>
+                    <span style="background: var(--primary); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مكتمل وجاهز</span>
+                </div>
+                <p style="font-size: 13px; color: var(--text-main); margin-bottom: 0;">
+                    دليل الأصناف، شجرة الأسعار المتعددة، وحدات القياس، الأقسام والماركات، المستودعات، التحويلات المخزنية، وتسويات الجرد والهالك.
+                </p>
+            </div>
+
+            <!-- Module 3: Next -->
             <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 2: الأصناف والمستودعات</strong>
+                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 3: العملاء والموردين</strong>
                     <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
                 </div>
                 <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
-                    دليل الأصناف، الوحدات ومعاملات التحويل، الأقسام والماركات، المخازن، التحويلات المخزنية، وأرصدة أول المدة ومحاضر الجرد.
+                    سجل العملاء والموردين، حدود الائتمان، شرائح الأسعار، وجدولة المديونيات والأقساط، وسندات القبض والصرف.
                 </p>
             </div>
 
