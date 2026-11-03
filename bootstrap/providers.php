@@ -9,6 +9,7 @@ use Modules\Setting\Providers\SettingServiceProvider;
 use Modules\Treasury\Providers\TreasuryServiceProvider;
 use Modules\Accounting\Providers\AccountingServiceProvider;
 use Modules\FinancialReports\Providers\FinancialReportsServiceProvider;
+use Modules\HR\Providers\HRServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -20,4 +21,5 @@ return [
     TreasuryServiceProvider::class,
     AccountingServiceProvider::class,
     FinancialReportsServiceProvider::class,
+    HRServiceProvider::class,
 ];

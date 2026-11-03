@@ -260,25 +260,36 @@
                 </p>
             </div>
 
-            <!-- Module 9: Next -->
-            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+            <!-- Module 9: Done -->
+            <div style="border: 1.5px solid var(--primary); border-radius: 14px; padding: 18px; background: var(--primary-light);">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 9: الموارد البشرية وشؤون الموظفين (HR & Payroll)</strong>
-                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                    <strong style="font-size: 15px; color: var(--primary);"><i class="fa-solid fa-circle-check"></i> موديول 9: الموارد البشرية والرواتب (HR & Payroll)</strong>
+                    <span style="background: var(--primary); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مكتمل وجاهز</span>
                 </div>
-                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
-                    سجلات الموظفين، مسيرات الرواتب والبدلات والخصومات، سلف العاملين، الحضور والانصراف، وإدارة الإجازات السنوية.
+                <p style="font-size: 13px; color: var(--text-main); margin-bottom: 0;">
+                    دليل وسجلات الموظفين، الأقسام والوظائف، مسيرات الرواتب الشهرية الآلية، تسوية واستقطاع أقساط السلف، كشوف الحضور والانصراف، وإدارة الإجازات وقسائم الصرف المعتمدة.
                 </p>
             </div>
 
-            <!-- Module 10: Scheduled -->
+            <!-- Module 10: Next -->
+            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 10: التصنيع وتكاليف الإنتاج (Manufacturing & BOM)</strong>
+                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                </div>
+                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
+                    أوامر الشغل والتصنيع، فواتير المواد وتكلفة الإنتاج (BOM)، مراحل وخطوط التشغيل، ومحاسبة تكاليف المواد الخام والعمالة.
+                </p>
+            </div>
+
+            <!-- Module 11: Scheduled -->
             <div style="border: 1px solid var(--border-color); border-radius: 14px; padding: 18px; background: #F8FAFC;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-industry"></i> موديول 10: التصنيع وتكاليف الإنتاج (Manufacturing & BOM)</strong>
+                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-network-wired"></i> موديول 11: الفروع ومراكز التوزيع المتعددة (Multi-Branch & Warehouses)</strong>
                     <span style="background: #E2E8F0; color: #475569; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مجدول</span>
                 </div>
                 <p style="font-size: 13px; color: #64748B; margin-bottom: 0;">
-                    أوامر الشغل والتصنيع، فواتير المواد وتكلفة الإنتاج (BOM)، مراحل وخطوط التشغيل، ومحاسبة تكاليف المواد الخام والعمالة.
+                    الربط الشبكي بين الفروع، تحويلات الأصناف بين المستودعات، الصلاحيات اللامركزية، وتقارير أداء ومبيعات الفروع المجمعة والمنفصلة.
                 </p>
             </div>
         </div>

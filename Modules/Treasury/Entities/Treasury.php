@@ -81,6 +81,16 @@ class Treasury extends Model
         };
     }
 
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', true);
+    }
+
+    public function getBalanceAttribute(): float
+    {
+        return (float) $this->current_balance;
+    }
+
     /**
      * Credit treasury (deposit / in) and log transaction
      */

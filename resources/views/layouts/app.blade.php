@@ -791,18 +791,56 @@
                 </a>
             </li>
 
+            <li class="menu-category">الموارد البشرية والرواتب (HR & Payroll)</li>
+            <li class="menu-item">
+                <a href="{{ route('hr.employees.index') }}" class="menu-link {{ request()->routeIs('hr.employees.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-users"></i>
+                    <span>دليل وسجلات الموظفين</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('hr.departments.index') }}" class="menu-link {{ request()->routeIs('hr.departments.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <span>الأقسام والمسميات الوظيفية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('hr.payrolls.index') }}" class="menu-link {{ request()->routeIs('hr.payrolls.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-money-check-dollar"></i>
+                    <span>مسيرات الرواتب الشهرية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('hr.loans.index') }}" class="menu-link {{ request()->routeIs('hr.loans.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>سلف الموظفين والعهد</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('hr.leaves.index') }}" class="menu-link {{ request()->routeIs('hr.leaves.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-person-walking-luggage"></i>
+                    <span>طلبات وسجلات الإجازات</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('hr.attendances.index') }}" class="menu-link {{ request()->routeIs('hr.attendances.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-clipboard-user"></i>
+                    <span>كشف الحضور والانصراف</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-user-group"></i>
-                    <span>الموارد البشرية وشؤون الموظفين (موديول 9)</span>
+                    <i class="fa-solid fa-industry"></i>
+                    <span>التصنيع وتكاليف الإنتاج (موديول 10)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-industry"></i>
-                    <span>التصنيع وتكاليف الإنتاج (موديول 10)</span>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <span>الفروع ومراكز التوزيع (موديول 11)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>
