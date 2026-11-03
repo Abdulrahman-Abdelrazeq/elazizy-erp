@@ -8,6 +8,7 @@ use Modules\POS\Providers\PosServiceProvider;
 use Modules\Setting\Providers\SettingServiceProvider;
 use Modules\Treasury\Providers\TreasuryServiceProvider;
 use Modules\Accounting\Providers\AccountingServiceProvider;
+use Modules\FinancialReports\Providers\FinancialReportsServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -18,4 +19,5 @@ return [
     PosServiceProvider::class,
     TreasuryServiceProvider::class,
     AccountingServiceProvider::class,
+    FinancialReportsServiceProvider::class,
 ];

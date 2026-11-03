@@ -741,18 +741,68 @@
                 </a>
             </li>
 
+            <li class="menu-category">موديول 8: القوائم والتقارير المالية</li>
+            <li class="menu-item">
+                <a href="{{ route('reports.index') }}" class="menu-link {{ request()->routeIs('reports.index') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>مركز التقارير المالية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.income_statement') }}" class="menu-link {{ request()->routeIs('reports.income_statement*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <span>قائمة الدخل والأرباح</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.balance_sheet') }}" class="menu-link {{ request()->routeIs('reports.balance_sheet*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <span>الميزانية والمركز المالي</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.cash_flow') }}" class="menu-link {{ request()->routeIs('reports.cash_flow*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-money-bill-transfer"></i>
+                    <span>قائمة التدفقات النقدية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.ratios') }}" class="menu-link {{ request()->routeIs('reports.ratios') ? 'active' : '' }}">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <span>المؤشرات والنسب المالية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.tax') }}" class="menu-link {{ request()->routeIs('reports.tax*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-receipt"></i>
+                    <span>الإقرار الضريبي والـ VAT</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.sales_profitability') }}" class="menu-link {{ request()->routeIs('reports.sales_profitability') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>تحليل ربحية المبيعات</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('reports.budgets.index') }}" class="menu-link {{ request()->routeIs('reports.budgets.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <span>الموازنات التقديرية</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-chart-pie"></i>
-                    <span>التقارير المالية والتحليلية (موديول 8)</span>
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>الموارد البشرية وشؤون الموظفين (موديول 9)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-user-group"></i>
-                    <span>الموارد البشرية وشؤون الموظفين (موديول 9)</span>
+                    <i class="fa-solid fa-industry"></i>
+                    <span>التصنيع وتكاليف الإنتاج (موديول 10)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>
