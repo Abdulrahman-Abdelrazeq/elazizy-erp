@@ -855,18 +855,44 @@
                 </a>
             </li>
 
+            <li class="menu-category">الفروع ومراكز التوزيع (Multi-Branch & Logistics)</li>
+            <li class="menu-item">
+                <a href="{{ route('branches.branches.index') }}" class="menu-link {{ request()->routeIs('branches.branches.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <span>دليل الفروع ومراكز التوزيع</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('branches.transfers.index') }}" class="menu-link {{ request()->routeIs('branches.transfers.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <span>التحويلات البينية للشحنات</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('branches.users.index') }}" class="menu-link {{ request()->routeIs('branches.users.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <span>صلاحيات وتعيين الفروع</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('branches.analytics.index') }}" class="menu-link {{ request()->routeIs('branches.analytics.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>مقارنات أداء الفروع</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-network-wired"></i>
-                    <span>الفروع ومراكز التوزيع (موديول 11)</span>
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span>الأصول الثابتة والإهلاك (موديول 12)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-building-columns"></i>
-                    <span>الأصول الثابتة والإهلاك (موديول 12)</span>
+                    <i class="fa-solid fa-person-digging"></i>
+                    <span>المشاريع وعقود المقاولات (موديول 13)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>
