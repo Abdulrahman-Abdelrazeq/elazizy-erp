@@ -88,3 +88,4 @@ class Payroll extends Model
         return "PAY-{$year}-{$monthStr}";
     }
 }
+

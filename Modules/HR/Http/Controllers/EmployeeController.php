@@ -174,3 +174,4 @@ class EmployeeController extends Controller
         return redirect()->route('hr.employees.index')->with('success', 'تم حذف ملف الموظف بنجاح.');
     }
 }
+

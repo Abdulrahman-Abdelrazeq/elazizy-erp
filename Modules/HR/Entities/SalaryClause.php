@@ -42,3 +42,4 @@ class SalaryClause extends Model
         return $query->where('type', 'deduction');
     }
 }
+

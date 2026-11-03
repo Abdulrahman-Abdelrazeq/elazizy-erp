@@ -10,6 +10,7 @@ use Modules\Treasury\Providers\TreasuryServiceProvider;
 use Modules\Accounting\Providers\AccountingServiceProvider;
 use Modules\FinancialReports\Providers\FinancialReportsServiceProvider;
 use Modules\HR\Providers\HRServiceProvider;
+use Modules\Manufacturing\Providers\ManufacturingServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -22,4 +23,5 @@ return [
     AccountingServiceProvider::class,
     FinancialReportsServiceProvider::class,
     HRServiceProvider::class,
+    ManufacturingServiceProvider::class,
 ];

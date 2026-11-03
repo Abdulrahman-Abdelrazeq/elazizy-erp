@@ -76,3 +76,4 @@ class AttendanceController extends Controller
         return back()->with('success', 'تم حفظ وتحديث كشف الحضور والانصراف لتاريخ ' . $date . ' بنجاح.');
     }
 }
+

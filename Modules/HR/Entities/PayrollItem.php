@@ -57,3 +57,4 @@ class PayrollItem extends Model
         return $this->deductions_amount + $this->loan_deduction;
     }
 }
+

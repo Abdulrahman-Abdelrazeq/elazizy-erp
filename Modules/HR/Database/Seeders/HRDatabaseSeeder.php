@@ -265,3 +265,4 @@ class HRDatabaseSeeder extends Seeder
         }
     }
 }
+

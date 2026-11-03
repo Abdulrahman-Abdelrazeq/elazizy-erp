@@ -244,3 +244,4 @@ class PayrollController extends Controller
         return redirect()->route('hr.payrolls.index')->with('success', 'تم حذف مسير الرواتب بنجاح.');
     }
 }
+

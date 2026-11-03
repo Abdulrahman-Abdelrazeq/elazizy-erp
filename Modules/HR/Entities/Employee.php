@@ -124,3 +124,4 @@ class Employee extends Model
         return $code;
     }
 }
+

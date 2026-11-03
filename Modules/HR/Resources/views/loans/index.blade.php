@@ -300,3 +300,4 @@ function openRepayModal(id, number, empName, remaining, monthly) {
 function closeRepayModal() { document.getElementById('repayModal').classList.remove('active'); }
 </script>
 @endsection
+

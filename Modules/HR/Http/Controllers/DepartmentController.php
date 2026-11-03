@@ -95,3 +95,4 @@ class DepartmentController extends Controller
         return back()->with('success', 'تم حذف المسمى الوظيفي بنجاح.');
     }
 }
+

@@ -243,3 +243,4 @@ document.querySelectorAll('.salary-calc').forEach(input => {
 document.addEventListener('DOMContentLoaded', calcTotal);
 </script>
 @endsection
+

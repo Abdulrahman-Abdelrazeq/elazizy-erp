@@ -109,3 +109,4 @@ class LeaveController extends Controller
         return back()->with('success', 'تم حذف سجل الإجازة بنجاح.');
     }
 }
+

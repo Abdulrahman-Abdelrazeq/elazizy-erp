@@ -77,3 +77,4 @@ class EmployeeLoan extends Model
         return $number;
     }
 }
+

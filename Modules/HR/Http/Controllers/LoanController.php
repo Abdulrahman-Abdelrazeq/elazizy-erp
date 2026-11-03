@@ -105,3 +105,4 @@ class LoanController extends Controller
         return back()->with('success', 'تم حذف سجل السلفة بنجاح.');
     }
 }
+

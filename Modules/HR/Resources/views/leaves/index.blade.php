@@ -261,3 +261,4 @@ function openLeaveModal() { document.getElementById('leaveModal').classList.add(
 function closeLeaveModal() { document.getElementById('leaveModal').classList.remove('active'); }
 </script>
 @endsection
+

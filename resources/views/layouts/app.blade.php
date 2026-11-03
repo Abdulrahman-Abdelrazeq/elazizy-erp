@@ -829,18 +829,44 @@
                 </a>
             </li>
 
+            <li class="menu-category">التصنيع وتكاليف الإنتاج (Manufacturing & BOM)</li>
+            <li class="menu-item">
+                <a href="{{ route('manufacturing.orders.index') }}" class="menu-link {{ request()->routeIs('manufacturing.orders.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>أوامر التصنيع والتشغيل</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('manufacturing.boms.index') }}" class="menu-link {{ request()->routeIs('manufacturing.boms.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>فواتير وقوائم المواد (BOM)</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('manufacturing.workstations.index') }}" class="menu-link {{ request()->routeIs('manufacturing.workstations.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-gears"></i>
+                    <span>محطات وخطوط الإنتاج</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('manufacturing.reports.index') }}" class="menu-link {{ request()->routeIs('manufacturing.reports.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>تقارير وتكاليف الإنتاج</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-industry"></i>
-                    <span>التصنيع وتكاليف الإنتاج (موديول 10)</span>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <span>الفروع ومراكز التوزيع (موديول 11)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-network-wired"></i>
-                    <span>الفروع ومراكز التوزيع (موديول 11)</span>
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span>الأصول الثابتة والإهلاك (موديول 12)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>
