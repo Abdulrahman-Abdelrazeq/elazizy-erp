@@ -709,18 +709,50 @@
                 </a>
             </li>
 
+            <li class="menu-category">موديول 7: الحسابات العامة ودفتر الأستاذ</li>
+            <li class="menu-item">
+                <a href="{{ route('accounting.accounts.index') }}" class="menu-link {{ request()->routeIs('accounting.accounts.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <span>شجرة الحسابات (COA)</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('accounting.journal-entries.index') }}" class="menu-link {{ request()->routeIs('accounting.journal-entries.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-book"></i>
+                    <span>دفتر القيود اليومية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('accounting.cost_centers.index') }}" class="menu-link {{ request()->routeIs('accounting.cost_centers.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-crosshairs"></i>
+                    <span>مراكز التكلفة</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('accounting.ledger.index') }}" class="menu-link {{ request()->routeIs('accounting.ledger.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>دفتر الأستاذ العام</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('accounting.trial_balance.index') }}" class="menu-link {{ request()->routeIs('accounting.trial_balance.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <span>ميزان المراجعة</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-book"></i>
-                    <span>الحسابات العامة والقيود (موديول 7)</span>
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>التقارير المالية والتحليلية (موديول 8)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-chart-pie"></i>
-                    <span>التقارير المالية والتحليلية (موديول 8)</span>
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>الموارد البشرية وشؤون الموظفين (موديول 9)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>

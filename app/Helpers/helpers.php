@@ -11,10 +11,20 @@ if (!function_exists('currentTenant')) {
     function currentTenant(): ?Tenant
     {
         if (!Auth::check()) {
-            return null;
+            return Tenant::first();
         }
 
-        return Auth::user()->tenant;
+        return Auth::user()->tenant ?: (session('tenant_id') ? Tenant::find(session('tenant_id')) : Tenant::first());
+    }
+}
+
+if (!function_exists('activeTenant')) {
+    /**
+     * Alias for currentTenant
+     */
+    function activeTenant(): ?Tenant
+    {
+        return currentTenant();
     }
 }
 
