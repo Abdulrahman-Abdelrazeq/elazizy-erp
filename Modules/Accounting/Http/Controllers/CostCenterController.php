@@ -91,3 +91,4 @@ class CostCenterController extends Controller
         return back()->with('success', 'تم حذف مركز التكلفة بنجاح.');
     }
 }
+

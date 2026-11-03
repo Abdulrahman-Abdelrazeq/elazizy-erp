@@ -45,3 +45,4 @@ Route::get('/ledger', [GeneralLedgerController::class, 'index'])->name('ledger.i
 
 // Trial Balance (ميزان المراجعة)
 Route::get('/trial-balance', [TrialBalanceController::class, 'index'])->name('trial_balance.index');
+

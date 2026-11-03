@@ -115,3 +115,4 @@ class JournalEntry extends Model
         return $candidate;
     }
 }
+

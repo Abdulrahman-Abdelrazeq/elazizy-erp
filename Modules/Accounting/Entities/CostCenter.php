@@ -45,3 +45,4 @@ class CostCenter extends Model
         return $query->where('is_active', true);
     }
 }
+

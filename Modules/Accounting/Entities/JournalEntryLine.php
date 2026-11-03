@@ -41,3 +41,4 @@ class JournalEntryLine extends Model
         return $this->belongsTo(CostCenter::class, 'cost_center_id');
     }
 }
+

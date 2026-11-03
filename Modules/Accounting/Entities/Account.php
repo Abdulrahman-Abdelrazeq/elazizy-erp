@@ -122,3 +122,4 @@ class Account extends Model
         return $newBalance;
     }
 }
+

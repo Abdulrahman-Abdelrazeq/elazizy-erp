@@ -175,3 +175,4 @@ class ChartOfAccountsController extends Controller
         ]);
     }
 }
+

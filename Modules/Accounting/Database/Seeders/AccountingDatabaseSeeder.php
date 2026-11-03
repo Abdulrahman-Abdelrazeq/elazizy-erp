@@ -279,3 +279,4 @@ class AccountingDatabaseSeeder extends Seeder
         }
     }
 }
+
