@@ -78,3 +78,4 @@ class BudgetController extends Controller
         return back()->with('success', 'تم حذف بند الموازنة التقديرية بنجاح.');
     }
 }
+

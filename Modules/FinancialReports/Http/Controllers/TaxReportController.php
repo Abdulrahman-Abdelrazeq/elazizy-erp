@@ -43,3 +43,4 @@ class TaxReportController extends Controller
         return view('reports::tax.print', compact('data', 'fromDate', 'toDate'));
     }
 }
+

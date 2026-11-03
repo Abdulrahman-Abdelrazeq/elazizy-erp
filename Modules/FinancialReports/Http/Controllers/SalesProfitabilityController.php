@@ -29,3 +29,4 @@ class SalesProfitabilityController extends Controller
         return view('reports::sales-profitability.index', compact('data', 'fromDate', 'toDate'));
     }
 }
+

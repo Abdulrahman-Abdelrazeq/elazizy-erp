@@ -118,3 +118,4 @@ class FinancialBudget extends Model
         return round(($this->actual_amount / $this->target_amount) * 100, 1);
     }
 }
+

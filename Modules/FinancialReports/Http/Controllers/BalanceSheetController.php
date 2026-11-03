@@ -41,3 +41,4 @@ class BalanceSheetController extends Controller
         return view('reports::balance-sheet.print', compact('data', 'asOfDate'));
     }
 }
+

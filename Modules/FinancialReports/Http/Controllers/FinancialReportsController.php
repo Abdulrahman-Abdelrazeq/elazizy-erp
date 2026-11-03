@@ -32,3 +32,4 @@ class FinancialReportsController extends Controller
         return view('reports::index', compact('income', 'balance', 'cashFlow', 'ratios', 'fromDate', 'toDate'));
     }
 }
+

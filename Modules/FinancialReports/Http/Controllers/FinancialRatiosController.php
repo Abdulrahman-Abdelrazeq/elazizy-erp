@@ -29,3 +29,4 @@ class FinancialRatiosController extends Controller
         return view('reports::ratios.index', compact('ratios', 'fromDate', 'toDate'));
     }
 }
+

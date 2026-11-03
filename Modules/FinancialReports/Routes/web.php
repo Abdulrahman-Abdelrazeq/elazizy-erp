@@ -38,3 +38,4 @@ Route::get('/sales-profitability', [SalesProfitabilityController::class, 'index'
 Route::get('/budgets', [BudgetController::class, 'index'])->name('budgets.index');
 Route::post('/budgets', [BudgetController::class, 'store'])->name('budgets.store');
 Route::delete('/budgets/{budget}', [BudgetController::class, 'destroy'])->name('budgets.destroy');
+

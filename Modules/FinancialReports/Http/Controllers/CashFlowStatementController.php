@@ -43,3 +43,4 @@ class CashFlowStatementController extends Controller
         return view('reports::cash-flow.print', compact('data', 'fromDate', 'toDate'));
     }
 }
+

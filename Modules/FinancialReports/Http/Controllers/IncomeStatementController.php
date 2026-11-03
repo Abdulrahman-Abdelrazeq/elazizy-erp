@@ -47,3 +47,4 @@ class IncomeStatementController extends Controller
         return view('reports::income-statement.print', compact('data', 'fromDate', 'toDate'));
     }
 }
+
