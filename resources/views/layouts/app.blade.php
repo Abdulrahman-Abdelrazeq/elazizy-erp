@@ -913,18 +913,44 @@
                 </a>
             </li>
 
+            <li class="menu-category">المشاريع والمقاولات (Projects & Contracting)</li>
+            <li class="menu-item">
+                <a href="{{ route('projects.projects.index') }}" class="menu-link {{ request()->routeIs('projects.projects.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-helmet-safety"></i>
+                    <span>دليل وسجل المشاريع</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('projects.projects.create') }}" class="menu-link {{ request()->routeIs('projects.projects.create') ? 'active' : '' }}">
+                    <i class="fa-solid fa-plus-circle"></i>
+                    <span>تسجيل مشروع وعقد جديد</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('projects.extracts.index') }}" class="menu-link {{ request()->routeIs('projects.extracts.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <span>المستخلصات الجارية والختامية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('projects.analytics.index') }}" class="menu-link {{ request()->routeIs('projects.analytics.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>تحليلات ومؤشرات الأداء EVM</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-person-digging"></i>
-                    <span>المشاريع وعقود المقاولات (موديول 13)</span>
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>الرقابة وضبط الجودة الشاملة (موديول 14)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-clipboard-check"></i>
-                    <span>الرقابة وضبط الجودة الشاملة (موديول 14)</span>
+                    <i class="fa-solid fa-wrench"></i>
+                    <span>إدارة الصيانة الوقائية والتشغيلية (موديول 15)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>

@@ -13,6 +13,7 @@ use Modules\HR\Providers\HRServiceProvider;
 use Modules\Manufacturing\Providers\ManufacturingServiceProvider;
 use Modules\Branch\Providers\BranchServiceProvider;
 use Modules\Asset\Providers\AssetServiceProvider;
+use Modules\Project\Providers\ProjectServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -28,4 +29,5 @@ return [
     ManufacturingServiceProvider::class,
     BranchServiceProvider::class,
     AssetServiceProvider::class,
+    ProjectServiceProvider::class,
 ];
