@@ -939,18 +939,50 @@
                 </a>
             </li>
 
+            <li class="menu-category">إدارة الجودة والتفتيش (Quality Control)</li>
+            <li class="menu-item">
+                <a href="{{ route('quality.templates.index') }}" class="menu-link {{ request()->routeIs('quality.templates.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span>نماذج وقوائم الفحص القياسية</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('quality.inspections.index') }}" class="menu-link {{ request()->routeIs('quality.inspections.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>سجل وأوامر الفحص والتفتيش</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('quality.ncrs.index') }}" class="menu-link {{ request()->routeIs('quality.ncrs.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>حالات عدم المطابقة (NCR)</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('quality.capas.index') }}" class="menu-link {{ request()->routeIs('quality.capas.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>الإجراءات التصحيحية والوقائية (CAPA)</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('quality.analytics.index') }}" class="menu-link {{ request()->routeIs('quality.analytics.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>لوحة مؤشرات الجودة وتحليل COPQ</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-clipboard-check"></i>
-                    <span>الرقابة وضبط الجودة الشاملة (موديول 14)</span>
+                    <i class="fa-solid fa-wrench"></i>
+                    <span>إدارة الصيانة الوقائية والتشغيلية (موديول 15)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-wrench"></i>
-                    <span>إدارة الصيانة الوقائية والتشغيلية (موديول 15)</span>
+                    <i class="fa-solid fa-truck-ramp-box"></i>
+                    <span>إدارة سلاسل الإمداد والأسطول اللوجستي (موديول 16)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>
@@ -1021,7 +1053,7 @@
                     </div>
                     <div class="user-info">
                         <div class="user-name">{{ $user->name ?? 'المستخدم' }}</div>
-                        <div class="user-role">{{ $user->role === 'superadmin' ? 'Super Admin' : 'مدير الشركة' }}</div>
+                        <div class="user-role">{{ ($user?->role ?? '') === 'superadmin' ? 'Super Admin' : 'مدير الشركة' }}</div>
                     </div>
                 </div>
 

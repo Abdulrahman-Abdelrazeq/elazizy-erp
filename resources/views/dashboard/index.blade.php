@@ -315,25 +315,25 @@
                 </p>
             </div>
 
-            <!-- Module 14: Next -->
-            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
+            <!-- Module 14: Completed -->
+            <div style="border: 1px solid var(--border-color); border-radius: 14px; padding: 18px; background: #FFFFFF;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 14: إدارة الجودة والرقابة التفتيشية (Quality Control & Assurance)</strong>
-                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
+                    <strong style="font-size: 15px; color: var(--primary);"><i class="fa-solid fa-circle-check"></i> موديول 14: إدارة الجودة والرقابة التفتيشية (Quality Control & Inspection)</strong>
+                    <span style="background: var(--primary); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مكتمل وجاهز</span>
                 </div>
-                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
-                    معايير الفحص واستلام المواد الخام، خطط التفتيش الدوري، أوامر عدم المطابقة (NCR)، ومتابعة كفاءة الجودة في التصنيع والمشاريع.
+                <p style="font-size: 13px; color: var(--text-main); margin-bottom: 0;">
+                    نماذج وقوائم التحقق القياسية (Checklists) مع معايير الفحص الرقمية والمنطقية، تسجيل أوامر الفحص للمواد الخام، أثناء التشغيل، والمنتج النهائي، وموقع المشروع، تقارير عدم المطابقة (NCR) وحساب تكلفة الهدر (COPQ)، الإجراءات التصحيحية والوقائية (CAPA)، إصدار وطباعة شهادات الإفراج المعتمدة، ولوحة مؤشرات الجودة FPY وسجل الموردين.
                 </p>
             </div>
 
-            <!-- Module 15: Scheduled -->
-            <div style="border: 1px solid var(--border-color); border-radius: 14px; padding: 18px; background: #F8FAFC;">
+            <!-- Module 15: Next -->
+            <div style="border: 1.5px dashed var(--accent-gold); border-radius: 14px; padding: 18px; background: #FFFBEB;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <strong style="font-size: 15px; color: #475569;"><i class="fa-solid fa-wrench"></i> موديول 15: إدارة الصيانة الوقائية والتشغيلية (Preventive & Operational Maintenance)</strong>
-                    <span style="background: #E2E8F0; color: #475569; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">مجدول</span>
+                    <strong style="font-size: 15px; color: #B45309;"><i class="fa-solid fa-hourglass-start"></i> موديول 15: إدارة الصيانة الوقائية والتشغيلية (Preventive & Operational Maintenance)</strong>
+                    <span style="background: var(--accent-gold); color: #fff; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 10px;">المحطة القادمة</span>
                 </div>
-                <p style="font-size: 13px; color: #64748B; margin-bottom: 0;">
-                    خطط الصيانة الدورية للأصول والمعدات، تذاكر وأوامر العمل الطارئة، استهلاك قطع الغيار، وربط تكاليف الصيانة بالحسابات العامة.
+                <p style="font-size: 13px; color: #78350F; margin-bottom: 0;">
+                    خطط الصيانة الدورية للأصول والمعدات، تذاكر وأوامر العمل الطارئة، استهلاك وتتبع قطع الغيار، وربط تكاليف الصيانة بالحسابات العامة.
                 </p>
             </div>
         </div>

@@ -14,6 +14,7 @@ use Modules\Manufacturing\Providers\ManufacturingServiceProvider;
 use Modules\Branch\Providers\BranchServiceProvider;
 use Modules\Asset\Providers\AssetServiceProvider;
 use Modules\Project\Providers\ProjectServiceProvider;
+use Modules\Quality\Providers\QualityServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -30,4 +31,5 @@ return [
     BranchServiceProvider::class,
     AssetServiceProvider::class,
     ProjectServiceProvider::class,
+    QualityServiceProvider::class,
 ];
