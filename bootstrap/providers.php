@@ -12,6 +12,7 @@ use Modules\FinancialReports\Providers\FinancialReportsServiceProvider;
 use Modules\HR\Providers\HRServiceProvider;
 use Modules\Manufacturing\Providers\ManufacturingServiceProvider;
 use Modules\Branch\Providers\BranchServiceProvider;
+use Modules\Asset\Providers\AssetServiceProvider;
 
 return [
     AppServiceProvider::class,
@@ -26,4 +27,5 @@ return [
     HRServiceProvider::class,
     ManufacturingServiceProvider::class,
     BranchServiceProvider::class,
+    AssetServiceProvider::class,
 ];

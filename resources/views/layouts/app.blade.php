@@ -881,18 +881,50 @@
                 </a>
             </li>
 
+            <li class="menu-category">الأصول الثابتة والإهلاك (Fixed Assets)</li>
+            <li class="menu-item">
+                <a href="{{ route('assets.assets.index') }}" class="menu-link {{ request()->routeIs('assets.assets.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span>سجل وبطاقات الأصول</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('assets.categories.index') }}" class="menu-link {{ request()->routeIs('assets.categories.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-shapes"></i>
+                    <span>تصنيفات الأصول</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('assets.depreciations.index') }}" class="menu-link {{ request()->routeIs('assets.depreciations.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span>قيود وجداول الإهلاك</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('assets.disposals.index') }}" class="menu-link {{ request()->routeIs('assets.disposals.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-recycle"></i>
+                    <span>استبعاد وبيع الأصول</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('assets.reports.index') }}" class="menu-link {{ request()->routeIs('assets.reports.*') ? 'active' : '' }}">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>مصفوفة وتقارير الأصول</span>
+                </a>
+            </li>
+
             <li class="menu-category">الموديولات القادمة (Next Roadmap)</li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-building-columns"></i>
-                    <span>الأصول الثابتة والإهلاك (موديول 12)</span>
+                    <i class="fa-solid fa-person-digging"></i>
+                    <span>المشاريع وعقود المقاولات (موديول 13)</span>
                     <span class="menu-badge" style="background: var(--accent-gold); color: #fff;">الموديول التالي</span>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0)" class="menu-link" style="opacity: 0.65;">
-                    <i class="fa-solid fa-person-digging"></i>
-                    <span>المشاريع وعقود المقاولات (موديول 13)</span>
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>الرقابة وضبط الجودة الشاملة (موديول 14)</span>
                     <span class="menu-badge">قيد الجدولة</span>
                 </a>
             </li>
